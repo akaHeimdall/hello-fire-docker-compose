@@ -30,5 +30,5 @@ A few things to note:
 - The endpoints for the db and the app in the source code are the names of the containers so "db" for the db and "myapp" for the app in my example, instead of localhost. In a prod system this probably needs some env variables to be set in the Dockerfile so the app uses the Docker endpoints instead of the localhost or some remote ones
 - The DB setup/seeding/migration cannot be done in a separate ephemeral container because of the --abort-on-container-exit flag: the container would exit and the tests one would not be run. Instead, both the DB setup and tests are run in the tests container
 
-
+OK
 
