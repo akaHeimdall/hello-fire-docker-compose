@@ -1,5 +1,5 @@
 # docker-compose-node-postgres
-End to end testing of your NodeJS + Postgres backend with Docker Compose.
+End to end testing of your NodeJS + Postgres backend with Docker Compose. 
 
 The project is a simple REST API for users in NodeJS using knex as an ORM on top of a PostgreSQL database.
 
